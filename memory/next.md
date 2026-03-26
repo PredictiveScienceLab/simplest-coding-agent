@@ -10,5 +10,6 @@
 - 2026-03-26: Added a top-level README that explains the repo goal, `uv` setup, notebook contents, and inspiration links.
 - 2026-03-26: Updated the README title and added a note explaining that `AGENTS.md` and `memory/` are included to show the development harness used for the project.
 - 2026-03-26: Replaced the placeholder `pyproject.toml` description with a short project summary that matches the notebook-first scope.
+- 2026-03-26: Added a prominent Google Colab launch link to the top of the README so readers can open the notebook directly from GitHub.
 - Run the notebook interactively with a pasted real `OPENAI_API_KEY`.
 - If needed later, add one follow-up notebook on safety limits and edit validation.

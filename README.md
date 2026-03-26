@@ -1,5 +1,10 @@
 # Simplest Coding Agent in a Jupyter Notebook
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PredictiveScienceLab/simplest-coding-agent/blob/main/notebooks/minimal_coding_agent.ipynb)
+
+Open the notebook directly in Google Colab:
+https://colab.research.google.com/github/PredictiveScienceLab/simplest-coding-agent/blob/main/notebooks/minimal_coding_agent.ipynb
+
 This repo is a small, notebook-first walkthrough of how to build a
 minimal coding agent.
 
