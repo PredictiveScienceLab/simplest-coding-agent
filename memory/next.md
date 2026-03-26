@@ -7,5 +7,6 @@
 - 2026-03-25: Added `matplotlib` to the project with `uv` so the final plotting example can run in the local notebook environment.
 - 2026-03-25: Updated the notebook defaults so the agent examples use model `gpt-5.4`, `max_steps=50`, and `timeout=120`.
 - 2026-03-25: Updated the notebook agent loop so plain-text assistant replies prompt for human input; the run now stops only when the human submits an empty reply or `max_steps` is reached.
+- 2026-03-26: Added a top-level README that explains the repo goal, `uv` setup, notebook contents, and inspiration links.
 - Run the notebook interactively with a pasted real `OPENAI_API_KEY`.
 - If needed later, add one follow-up notebook on safety limits and edit validation.
