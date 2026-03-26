@@ -6,5 +6,6 @@
 - 2026-03-25: Kept the Lorenz-attractor example and made a Fortran logistic-map workflow the final example. The final example asks the notebook agent to write, compile, and run Fortran code that generates logistic-map bifurcation data for plotting.
 - 2026-03-25: Added `matplotlib` to the project with `uv` so the final plotting example can run in the local notebook environment.
 - 2026-03-25: Updated the notebook defaults so the agent examples use model `gpt-5.4`, `max_steps=50`, and `timeout=120`.
+- 2026-03-25: Updated the notebook agent loop so plain-text assistant replies prompt for human input; the run now stops only when the human submits an empty reply or `max_steps` is reached.
 - Run the notebook interactively with a pasted real `OPENAI_API_KEY`.
 - If needed later, add one follow-up notebook on safety limits and edit validation.
