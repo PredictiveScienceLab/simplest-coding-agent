@@ -1,4 +1,4 @@
-# Mini Coding Agent
+# Simplest Coding Agent in a Jupyter Notebook
 
 This repo is a small, notebook-first walkthrough of how to build a
 minimal coding agent.
@@ -58,3 +58,17 @@ The notebook is designed to use only `OPENAI_API_KEY`.
 
 - Geoffrey Huntley: https://ghuntley.com/agent/
 - `mini-swe-agent`: https://github.com/SWE-agent/mini-swe-agent
+
+## Development Harness
+
+I include `AGENTS.md` and the `memory/` folder to demonstrate the
+harness I used while developing this project.
+
+- `AGENTS.md` captures the working rules and development constraints I
+  gave the coding agent.
+- `memory/project.md`, `memory/decisions.md`, and `memory/next.md`
+  form a simple file-based memory system for project context, design
+  decisions, and handoff notes.
+
+These files are not part of the minimal agent itself. They are part of
+the process used to build the notebook and keep the work organized.
