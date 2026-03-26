@@ -9,5 +9,6 @@
 - 2026-03-25: Updated the notebook agent loop so plain-text assistant replies prompt for human input; the run now stops only when the human submits an empty reply or `max_steps` is reached.
 - 2026-03-26: Added a top-level README that explains the repo goal, `uv` setup, notebook contents, and inspiration links.
 - 2026-03-26: Updated the README title and added a note explaining that `AGENTS.md` and `memory/` are included to show the development harness used for the project.
+- 2026-03-26: Replaced the placeholder `pyproject.toml` description with a short project summary that matches the notebook-first scope.
 - Run the notebook interactively with a pasted real `OPENAI_API_KEY`.
 - If needed later, add one follow-up notebook on safety limits and edit validation.
